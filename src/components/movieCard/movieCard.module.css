@@ -1,0 +1,42 @@
+.movieCard {
+    width: 500px;
+    height: 281px;
+    display: flex;
+    padding: 5px;
+    position: relative;
+}
+
+.text {
+    width: 270px;
+    height: 281px;
+    padding: 10px;
+}
+.h2{
+    text-align: left;
+}
+.date{
+    font-weight: lighter;
+    text-align: left;
+
+}
+.tag{
+    border-radius: 2px;
+    background-color: gainsboro;
+}
+.tags{
+    display: flex;
+}
+.tag + .tag{
+    margin-left: 5px;
+}
+.description{
+    text-align: left;
+    font-size: 10px;
+}
+.rate{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    width: 25px;
+    height: 25px;
+}
