@@ -40,10 +40,8 @@ function App() {
             <div className="tabs">
                 <Tabs onChange={tabOnChange}>
                     <Tabs.TabPane tab="Search" key="1">
-                        Content of Tab Pane 1
                     </Tabs.TabPane>
                     <Tabs.TabPane tab="Rates" key="2">
-                        Content of Tab Pane 2
                     </Tabs.TabPane>
                 </Tabs>
             </div>
