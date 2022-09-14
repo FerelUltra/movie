@@ -16,7 +16,9 @@ export const MovieCard = (props: ICard) => {
   const rate = JSON.parse(localStorage.getItem(String(props.id))!)?.myRate;
   return (
     <div className={styles.movieCard}>
-      <img src={url} alt="" />
+      <div style={{width: "181px", height: "272px"}}>
+        <img src={url} alt="" width="181px" height="272px" />
+      </div>
       <div className={styles.text}>
         <h2 className={styles.h2}>{props.title}</h2>
         <p className={styles.date}>{props.date}</p>
